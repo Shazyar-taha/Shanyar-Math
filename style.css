@@ -1,0 +1,27 @@
+*{
+background-color: #fafafa;
+
+}
+
+body{
+    background-color: #fafafa;
+}
+
+
+.my-color{
+
+    color: #F62681;
+}
+
+.nav-pills .nav-item .nav-link{
+    color: black;
+    font-size: 18px;
+
+}
+
+
+.nav-pills .nav-item  .my-active{
+    background-color: #F62681;
+    color: white;
+
+}
