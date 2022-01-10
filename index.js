@@ -5,7 +5,7 @@ function addition() {
     number = [];
     let rows = document.querySelectorAll('.row');
 
-    for (let i = 0; i < 3; i++) {
+    for (let i = 0; i <= 2; i++) {
         let row = rows[i].children;
 
         for (let j = 0; j < row.length; j++) {
