@@ -5,7 +5,7 @@ function addition() {
     number = [];
     let rows = document.querySelectorAll('.row');
 
-    for (let i = 1; i < 4; i++) {
+    for (let i = 1; i < 3; i++) {
         let row = rows[i].children;
 
         for (let j = 0; j < row.length; j++) {
@@ -79,7 +79,7 @@ function subtraction() {
     number = [];
     let rows = document.querySelectorAll('.row');
 
-    for (let i = 1; i < 4; i++) {
+    for (let i = 1; i < 3; i++) {
         let row = rows[i].children;
 
         for (let j = 0; j < row.length; j++) {
@@ -172,7 +172,7 @@ function multiplication() {
     number = [];
     let rows = document.querySelectorAll('.row');
 
-    for (let i = 1; i < 4; i++) {
+    for (let i = 1; i < 3; i++) {
         let row = rows[i].children;
 
         for (let j = 0; j < row.length; j++) {
@@ -202,7 +202,7 @@ function divison() {
     number = [];
     let rows = document.querySelectorAll('.row');
 
-    for (let i = 1; i < 4; i++) {
+    for (let i = 1; i < 3; i++) {
         let row = rows[i].children;
 
         for (let j = 0; j < row.length; j++) {

@@ -27,22 +27,25 @@
     <div class="container">
 
         <!-- navbar -->
-        <div class="row mt-2 justify-content-start">
+        <div class="my-nav">
 
-            <ul class="nav nav-pills">
-                <li class="nav-item">
-                    <a class="nav-link " aria-current="page" href="index.html">Addition +</a>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-list"
+                    viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                </svg>
+            </label>
+
+            <ul class="my-nav-pills">
+                <li class="my-nav-item"><a class="my-nav-link" href="index.html">Addition +</a></li>
+                <li class="my-nav-item"><a class="my-nav-link " href="subtraction.html">Subtraction -</a></li>
+                <li class="my-nav-item"><a class="my-nav-link " href="multiplication.html">Multiplication *</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="subtraction.html">Subtraction -</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link " href="multiplication.html">Multiplication *</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link my-active" href="division.html">Division /</a>
-                </li>
+                <li class="my-nav-item"><a class="my-nav-link my-active" href="division.html">Division /</a></li>
             </ul>
+
         </div>
 
         <!-- two number  -->
@@ -152,7 +155,7 @@
         <div class="row mt-5 p-3">
             <div class="col-md-12 mt-4 mb-4 text-ceneter">
                 <div class="d-grid gap-2 col-6 mx-auto">
-                    <button class="btn btn-primary" type="button" onClick="showResult();">Show Result</button>
+                    <button class="btn my-btn " type="button" onClick="showResult();">Show Result</button>
 
                 </div>
             </div>
