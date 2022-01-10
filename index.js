@@ -5,7 +5,7 @@ function addition() {
     number = [];
     let rows = document.querySelectorAll('.row');
 
-    for (let i = 0; i <= 2; i++) {
+    for (let i = 0; i < 3; i++) {
         let row = rows[i].children;
 
         for (let j = 0; j < row.length; j++) {
@@ -263,7 +263,7 @@ function afterChange(rowName, colName, e) {
 function showResult() {
     let rows = document.querySelectorAll('.row');
 
-    for (let i = 1; i < 4; i++) {
+    for (let i = 0; i < 3; i++) {
 
         let row = rows[i].children;
 
@@ -271,7 +271,7 @@ function showResult() {
             let column = row[j].children;
             let [input] = column[column.length - 1].children;
             console.log(input);
-            input.value = number.find(r => r.row_name == ('row-' + i) && r.col_name == ('col-' + j)).res;
+            input.value = number.find(r => r.row_name == ('row-' + (i + 1)) && r.col_name == ('col-' + j)).res;
             // console.log(number.find(r => r.row_name == ('row-' + i) && r.col_name == ('col-' + j)));
         }
 
